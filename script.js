@@ -1,3 +1,5 @@
+$("#divResultado").hide();
+
 function handleSubmit() {
 
     const qtdHomens = parseInt(document.getElementById("Homen").value);
@@ -30,7 +32,6 @@ function handleSubmit() {
 
     
     const listaDeIngredientes = document.querySelector(".ingredienteUl");
-
     
     listaDeIngredientes.innerHTML = `
         <li class="IngredienteLista">${Carnetotal.toFixed(2)} kg de carne bovina</li>
@@ -41,7 +42,7 @@ function handleSubmit() {
     `;
 
     let divResultado = document.getElementById("divResultado");
-    divResultado.classList.remove("hidden");
+    $("#divResultado").show();
 
     return false;
 }
