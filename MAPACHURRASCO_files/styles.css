@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, button, input {
+    font:400 16px "Work", sans-serif;
+}
+
+.cabecalho {
+    
+    background-position: 50% 39%;
+    text-align: center;
+    align-items: center;
+}
+
+#textoheader {
+
+    font-size: 50px;
+    font-style: normal;
+    color: white;   
+    position: relative
+
+}
+
+.vsc-initialized {
+
+    background-color: brown;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: calc(100vh - 60px); 
+}
+
+
+.form-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #ff1e00;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+body{
+    background-image: url("../imagens/fotofundoheader.jpg");
+}
+
+.hidden {
+    display: none;
+}
